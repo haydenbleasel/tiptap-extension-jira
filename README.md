@@ -30,19 +30,19 @@ You'll also need the following extensions from Tiptap to use this package:
 | Extension | Type | Tiptap Extension | ADF Node |
 |---------|-------------|------|------|
 | Blockquote | Node | https://tiptap.dev/docs/editor/extensions/nodes/blockquote | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/blockquote/ |
-| Bullet List | Node | https://tiptap.dev/docs/editor/extensions/nodes/bullet-list | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/bullet-list/ |
-| Code Block | Node | https://tiptap.dev/docs/editor/extensions/nodes/code-block | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/code-block/ |
+| Bullet List | Node | https://tiptap.dev/docs/editor/extensions/nodes/bullet-list | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/bulletList/ |
+| Code Block | Node | https://tiptap.dev/docs/editor/extensions/nodes/code-block | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/codeBlock/ |
 | Emoji | Node | https://tiptap.dev/docs/editor/extensions/nodes/emoji | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/emoji/ |
-| Hard Break | Node | https://tiptap.dev/docs/editor/extensions/nodes/hard-break | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/hard-break/ |
+| Hard Break | Node | https://tiptap.dev/docs/editor/extensions/nodes/hard-break | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/hardBreak/ |
 | Heading | Node | https://tiptap.dev/docs/editor/extensions/nodes/heading | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/heading/ |
 | List Item | Node | https://tiptap.dev/docs/editor/extensions/nodes/list-item | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/listItem/ |
-| Ordered List | Node | https://tiptap.dev/docs/editor/extensions/nodes/ordered-list | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/ordered-list/ |
+| Ordered List | Node | https://tiptap.dev/docs/editor/extensions/nodes/ordered-list | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/orderedList/ |
 | Paragraph | Node | https://tiptap.dev/docs/editor/extensions/nodes/paragraph | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/paragraph/ |
 | Table | Node | https://tiptap.dev/docs/editor/extensions/nodes/table | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/table/ |
-| Table Cell | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-cell | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/tableCell/ |
-| Table Header | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-header | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/tableHeader/ |
-| Table Row | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-row | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/tableRow/ |
-| Text | Node | https://tiptap.dev/docs/editor/extensions/marks/text | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/text/ |
+| Table Cell | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-cell | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/table_cell/ |
+| Table Header | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-header | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/table_header/ |
+| Table Row | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-row | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/table_row/ |
+| Text | Node | https://tiptap.dev/docs/editor/extensions/nodes/text | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/text/ |
 | Code | Mark | https://tiptap.dev/docs/editor/extensions/marks/code | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/code/ |
 | Link | Mark | https://tiptap.dev/docs/editor/extensions/marks/link | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/link/ |
 | Strike | Mark | https://tiptap.dev/docs/editor/extensions/marks/strike | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/strike/ |
