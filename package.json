@@ -1,6 +1,6 @@
 {
   "name": "tiptap-extension-jira",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of Tiptap extensions enabling bidirectional sync with Jira.",
   "files": [
     "dist"
