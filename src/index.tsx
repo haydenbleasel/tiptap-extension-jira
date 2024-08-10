@@ -1,38 +1,5 @@
-import * as Accordion from '@repo/design-system/components/accordion';
 import { Node, mergeAttributes } from '@tiptap/core';
 import { NodeViewWrapper, ReactNodeViewRenderer } from '@tiptap/react';
-
-const MediaSingle = Node.create({
-  name: 'mediaSingle',
-  group: 'block',
-  content: 'media',
-  addAttributes() {
-    return {
-      layout: {
-        default: 'align-start',
-        parseHTML: (element) => element.getAttribute('data-layout'),
-        renderHTML: (attributes) => {
-          return { 'data-layout': attributes.layout };
-        },
-      },
-    };
-  },
-  parseHTML() {
-    return [{ tag: 'div[data-layout]' }];
-  },
-  renderHTML({ node, HTMLAttributes }) {
-    return ['div', mergeAttributes(HTMLAttributes), 0];
-  },
-  addNodeView() {
-    return ReactNodeViewRenderer(() => {
-      return (
-        <div className="pointer-events-none border flex aspect-video w-full select-none items-center justify-center rounded-lg bg-card">
-          <p>Sorry, we can't render images from Jira just yet.</p>
-        </div>
-      );
-    });
-  },
-});
 
 const Expand = Node.create({
   name: 'expand',
