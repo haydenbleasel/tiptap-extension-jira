@@ -66,6 +66,39 @@ const editor = new Editor({
 });
 ```
 
+I also recommend adding the following Tailwind CSS to your project:
+
+```css
+/* Panel */
+div[data-panel-type] {
+  @apply p-4 bg-muted rounded-md my-4;
+}
+
+div[data-panel-type] > *:last-child {
+  @apply mb-0;
+}
+
+div[data-panel-type="info"] {
+  @apply bg-sky-50 text-sky-800;
+}
+
+div[data-panel-type="note"] {
+  @apply bg-indigo-50 text-indigo-800;
+}
+
+div[data-panel-type="success"] {
+  @apply bg-emerald-50 text-emerald-800;
+}
+
+div[data-panel-type="warning"] {
+  @apply bg-amber-50 text-amber-800;
+}
+
+div[data-panel-type="error"] {
+  @apply bg-rose-50 text-rose-800;
+}
+```
+
 ### Server
 
 If you are running this in a headless environment, you can use the Server extension instead:
