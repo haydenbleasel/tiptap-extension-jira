@@ -1,0 +1,75 @@
+# tiptap-extension-jira
+
+[![Version](https://img.shields.io/npm/v/tiptap-extension-jira.svg)](https://www.npmjs.org/package/tiptap-extension-jira) [![Build Status](https://github.com/haydenbleasel/tiptap-extension-jira/actions/workflows/push.yml/badge.svg?branch=main)](https://github.com/haydenbleasel/tiptap-extension-jira/actions?query=branch%3Amain)
+
+A collection of [Tiptap](https://tiptap.dev/) extensions that enable bidirectional sync with Jira. It works by introducing a series of Nodes and Marks unique to the Atlassian Document Format (ADF) that can be used to render Jira content in a TipTap document.
+
+## Features
+
+| Extension | Type | ADF Node |
+|---------|------|
+| Inline Card | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/inlineCard/ |
+| Media | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/media/ |
+| Media Group | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/mediaGroup/ |
+| Media Single | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/mediaSingle/ |
+| Mention | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/mention/ |
+| Panel | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/panel/ |
+| Rule | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/rule/ |
+| Background Color | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/backgroundColor/ |
+| `em` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/em/ |
+| `strong` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/strong/ |
+| `subSup` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/subSup/ |
+| `textColor` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/textColor/ |
+
+You'll also need the following extensions from Tiptap to use this package:
+
+| Extension | Type | Tiptap Extension | ADF Node |
+|---------|-------------|------|------|
+| Blockquote | Node | https://tiptap.dev/docs/editor/extensions/nodes/blockquote | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/blockquote/ |
+| Bullet List | Node | https://tiptap.dev/docs/editor/extensions/nodes/bullet-list | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/bullet-list/ |
+| Code Block | Node | https://tiptap.dev/docs/editor/extensions/nodes/code-block | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/code-block/ |
+| Emoji | Node | https://tiptap.dev/docs/editor/extensions/nodes/emoji | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/emoji/ |
+| Hard Break | Node | https://tiptap.dev/docs/editor/extensions/nodes/hard-break | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/hard-break/ |
+| Heading | Node | https://tiptap.dev/docs/editor/extensions/nodes/heading | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/heading/ |
+| List Item | Node | https://tiptap.dev/docs/editor/extensions/nodes/list-item | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/listItem/ |
+| Ordered List | Node | https://tiptap.dev/docs/editor/extensions/nodes/ordered-list | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/ordered-list/ |
+| Paragraph | Node | https://tiptap.dev/docs/editor/extensions/nodes/paragraph | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/paragraph/ |
+| Table | Node | https://tiptap.dev/docs/editor/extensions/nodes/table | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/table/ |
+| Table Cell | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-cell | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/tableCell/ |
+| Table Header | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-header | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/tableHeader/ |
+| Table Row | Node | https://tiptap.dev/docs/editor/extensions/nodes/table-row | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/tableRow/ |
+| Text | Node | https://tiptap.dev/docs/editor/extensions/marks/text | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/text/ |
+| Code | Mark | https://tiptap.dev/docs/editor/extensions/marks/code | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/code/ |
+| Link | Mark | https://tiptap.dev/docs/editor/extensions/marks/link | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/link/ |
+| Strike | Mark | https://tiptap.dev/docs/editor/extensions/marks/strike | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/strike/ |
+| Underline | Mark | https://tiptap.dev/docs/editor/extensions/marks/underline | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/underline/ |
+
+## Installation
+
+```bash
+pnpm add tiptap-extension-jira
+```
+
+## Usage
+
+### Client
+
+```ts
+import { Jira } from 'tiptap-extension-jira';
+
+const editor = new Editor({
+  extensions: [...Jira],
+});
+```
+
+### Server
+
+If you are running this in a headless environment, you can use the Server extension instead:
+
+```ts
+import { Jira } from 'tiptap-extension-jira/server';
+
+const editor = new Editor({
+  extensions: [...Jira],
+});
+```
