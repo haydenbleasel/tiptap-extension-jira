@@ -7,7 +7,9 @@ A collection of [Tiptap](https://tiptap.dev/) extensions that enable bidirection
 ## Features
 
 | Extension | Type | ADF Node |
-|---------|------|
+|---------|------|---------|
+| Date | Node | Undocumented |
+| Expand | Node | Undocumented |
 | Inline Card | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/inlineCard/ |
 | Media | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/media/ |
 | Media Group | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/mediaGroup/ |
@@ -15,12 +17,13 @@ A collection of [Tiptap](https://tiptap.dev/) extensions that enable bidirection
 | Mention | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/mention/ |
 | Panel | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/panel/ |
 | Rule | Node | https://developer.atlassian.com/cloud/jira/platform/apis/document/nodes/rule/ |
+| Status | Node | Undocumented |
+| Undefined | Node | Undocumented |
 | Background Color | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/backgroundColor/ |
 | `em` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/em/ |
 | `strong` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/strong/ |
-| `subSup` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/subSup/ |
+| `subSup` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/subsup/ |
 | `textColor` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/textColor/ |
-| Undefined | Node |  |
 
 You'll also need the following extensions from Tiptap to use this package:
 
