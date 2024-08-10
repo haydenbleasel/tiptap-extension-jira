@@ -20,6 +20,7 @@ A collection of [Tiptap](https://tiptap.dev/) extensions that enable bidirection
 | `strong` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/strong/ |
 | `subSup` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/subSup/ |
 | `textColor` | Mark | https://developer.atlassian.com/cloud/jira/platform/apis/document/marks/textColor/ |
+| Undefined | Node |  |
 
 You'll also need the following extensions from Tiptap to use this package:
 
