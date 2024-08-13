@@ -1,3 +1,15 @@
+# v1.0.5 (Tue Aug 13 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Fix NodeViewWrapper issue ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### Authors: 1
+
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.4 (Sat Aug 10 2024)
 
 #### ⚠️ Pushed to `main`
