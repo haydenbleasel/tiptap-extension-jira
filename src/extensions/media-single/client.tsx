@@ -1,5 +1,5 @@
 import { Node, mergeAttributes } from '@tiptap/core';
-import { ReactNodeViewRenderer } from '@tiptap/react';
+import { NodeViewWrapper, ReactNodeViewRenderer } from '@tiptap/react';
 
 export const MediaSingleClient = Node.create({
   name: 'mediaSingle',
@@ -29,9 +29,11 @@ export const MediaSingleClient = Node.create({
   addNodeView() {
     return ReactNodeViewRenderer(() => {
       return (
-        <div className="pointer-events-none border flex aspect-video w-full select-none items-center justify-center rounded-lg bg-card">
-          <p>Sorry, we can't render images from Jira just yet.</p>
-        </div>
+        <NodeViewWrapper>
+          <div className="pointer-events-none border flex aspect-video w-full select-none items-center justify-center rounded-lg bg-card">
+            <p>Sorry, we can't render images from Jira just yet.</p>
+          </div>
+        </NodeViewWrapper>
       );
     });
   },
