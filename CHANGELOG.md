@@ -1,3 +1,15 @@
+# v1.0.6 (Sat Aug 17 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Add missing extension node ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### Authors: 1
+
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.5 (Tue Aug 13 2024)
 
 #### ⚠️ Pushed to `main`
