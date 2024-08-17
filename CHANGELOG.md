@@ -1,3 +1,15 @@
+# v1.0.7 (Sat Aug 17 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Export object for configuration ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### Authors: 1
+
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.6 (Sat Aug 17 2024)
 
 #### ⚠️ Pushed to `main`
