@@ -1,6 +1,6 @@
-import Mention from '@tiptap/extension-mention';
+import TiptapMention from '@tiptap/extension-mention';
 
-export const JiraMention = Mention.extend({
+export const Mention = TiptapMention.extend({
   name: 'mention',
 
   addAttributes() {

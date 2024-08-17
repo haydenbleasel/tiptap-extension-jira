@@ -62,7 +62,27 @@ pnpm add tiptap-extension-jira
 import { Jira } from 'tiptap-extension-jira';
 
 const editor = new Editor({
-  extensions: [...Jira],
+  extensions: [...Object.values(Jira)],
+});
+```
+
+You can modify any of the extensions, for example:
+
+```ts
+import { Jira } from 'tiptap-extension-jira';
+
+const { Mention, ...rest } = Jira;
+
+const mention = Jira.Mention.configure({
+  suggestion: createMentionSuggestions([
+    'Hayden',
+    'Gavin',
+    'Anna',
+  ]),
+});
+
+const editor = new Editor({
+  extensions: [mention, ...Object.values(rest)],
 });
 ```
 
@@ -107,6 +127,6 @@ If you are running this in a headless environment, you can use the Server extens
 import { Jira } from 'tiptap-extension-jira/server';
 
 const editor = new Editor({
-  extensions: [...Jira],
+  extensions: [...Object.values(Jira)],
 });
 ```
