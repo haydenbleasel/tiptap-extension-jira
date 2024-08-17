@@ -4,6 +4,7 @@ import { ExpandClient } from './extensions/expand/client';
 import { InlineCard } from './extensions/inline-card';
 import { Media } from './extensions/media';
 import { MediaSingleClient } from './extensions/media-single/client';
+import { JiraMention } from './extensions/mention';
 import { Panel } from './extensions/panel';
 import { Rule } from './extensions/rule';
 import { Status } from './extensions/status';
@@ -18,6 +19,7 @@ export const Jira = [
   DateNode,
   Em,
   InlineCard,
+  JiraMention,
   Media,
   Panel,
   Rule,

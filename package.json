@@ -68,6 +68,7 @@
   },
   "dependencies": {
     "@tiptap/core": "^2.5.9",
+    "@tiptap/extension-mention": "^2.6.4",
     "@tiptap/pm": "^2.5.9",
     "@tiptap/react": "^2.5.9"
   },

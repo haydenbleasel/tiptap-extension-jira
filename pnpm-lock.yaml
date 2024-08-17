@@ -11,6 +11,9 @@ importers:
       '@tiptap/core':
         specifier: ^2.5.9
         version: 2.5.9(@tiptap/pm@2.5.9)
+      '@tiptap/extension-mention':
+        specifier: ^2.6.4
+        version: 2.6.4(@tiptap/core@2.5.9(@tiptap/pm@2.5.9))(@tiptap/pm@2.5.9)(@tiptap/suggestion@2.6.4(@tiptap/core@2.5.9(@tiptap/pm@2.5.9))(@tiptap/pm@2.5.9))
       '@tiptap/pm':
         specifier: ^2.5.9
         version: 2.5.9
@@ -386,6 +389,13 @@ packages:
       '@tiptap/core': ^2.5.9
       '@tiptap/pm': ^2.5.9
 
+  '@tiptap/extension-mention@2.6.4':
+    resolution: {integrity: sha512-u+9Raq0+Kfu2XEhmZX/RieAWH9QWuJ6QLNMnrHWrlllwG1silXdSc+nppa6bT3sDhEEohyl4SBOpDVZarqAtMQ==}
+    peerDependencies:
+      '@tiptap/core': ^2.6.4
+      '@tiptap/pm': ^2.6.4
+      '@tiptap/suggestion': ^2.6.4
+
   '@tiptap/pm@2.5.9':
     resolution: {integrity: sha512-YSUaEQVtvZnGzGjif2Tl2o9utE+6tR2Djhz0EqFUcAUEVhOMk7UYUO+r/aPfcCRraIoKKuDQzyCpjKmJicjCUA==}
 
@@ -396,6 +406,12 @@ packages:
       '@tiptap/pm': ^2.5.9
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
+
+  '@tiptap/suggestion@2.6.4':
+    resolution: {integrity: sha512-t4GOEcsVSCwTlugHjZdK5Swe6or/tBej5E3ZWYOFHxkNLDod76Q7hvAeBPYrLeDo6m3sPnxrazfdqSeVclk72g==}
+    peerDependencies:
+      '@tiptap/core': ^2.6.4
+      '@tiptap/pm': ^2.6.4
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1195,6 +1211,12 @@ snapshots:
       '@tiptap/pm': 2.5.9
       tippy.js: 6.3.7
 
+  '@tiptap/extension-mention@2.6.4(@tiptap/core@2.5.9(@tiptap/pm@2.5.9))(@tiptap/pm@2.5.9)(@tiptap/suggestion@2.6.4(@tiptap/core@2.5.9(@tiptap/pm@2.5.9))(@tiptap/pm@2.5.9))':
+    dependencies:
+      '@tiptap/core': 2.5.9(@tiptap/pm@2.5.9)
+      '@tiptap/pm': 2.5.9
+      '@tiptap/suggestion': 2.6.4(@tiptap/core@2.5.9(@tiptap/pm@2.5.9))(@tiptap/pm@2.5.9)
+
   '@tiptap/pm@2.5.9':
     dependencies:
       prosemirror-changeset: 2.2.1
@@ -1226,6 +1248,11 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       use-sync-external-store: 1.2.2(react@18.3.1)
+
+  '@tiptap/suggestion@2.6.4(@tiptap/core@2.5.9(@tiptap/pm@2.5.9))(@tiptap/pm@2.5.9)':
+    dependencies:
+      '@tiptap/core': 2.5.9(@tiptap/pm@2.5.9)
+      '@tiptap/pm': 2.5.9
 
   '@types/estree@1.0.5': {}
 
