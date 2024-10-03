@@ -3,6 +3,7 @@ import { Em } from './extensions/em';
 import { ExpandServer } from './extensions/expand/server';
 import { InlineCard } from './extensions/inline-card';
 import { Media } from './extensions/media';
+import { MediaGroup } from './extensions/media-group';
 import { MediaSingleServer } from './extensions/media-single/server';
 import { Mention } from './extensions/mention';
 import { Panel } from './extensions/panel';
@@ -14,12 +15,13 @@ import { TextColor } from './extensions/text-color';
 import { UndefinedNode } from './extensions/undefined';
 
 export const Jira = {
-  MediaSingleServer,
   ExpandServer,
   DateNode,
   Em,
   InlineCard,
   Media,
+  MediaGroup,
+  MediaSingleServer,
   Mention,
   Panel,
   Rule,
