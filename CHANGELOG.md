@@ -1,3 +1,25 @@
+# v1.0.9 (Mon Dec 02 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Update push.yml ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### 🔩 Dependency Updates
+
+- Bump rollup from 4.20.0 to 4.24.3 in the npm_and_yarn group [#16](https://github.com/haydenbleasel/tiptap-extension-jira/pull/16) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump @tiptap/react from 2.5.9 to 2.6.6 [#13](https://github.com/haydenbleasel/tiptap-extension-jira/pull/13) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump @biomejs/biome from 1.8.3 to 1.9.4 [#11](https://github.com/haydenbleasel/tiptap-extension-jira/pull/11) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump @types/react-dom from 18.3.0 to 18.3.1 [#12](https://github.com/haydenbleasel/tiptap-extension-jira/pull/12) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump @tiptap/pm from 2.8.0 to 2.9.1 [#14](https://github.com/haydenbleasel/tiptap-extension-jira/pull/14) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump typescript from 5.5.4 to 5.6.3 [#15](https://github.com/haydenbleasel/tiptap-extension-jira/pull/15) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.8 (Thu Oct 03 2024)
 
 #### ⚠️ Pushed to `main`
