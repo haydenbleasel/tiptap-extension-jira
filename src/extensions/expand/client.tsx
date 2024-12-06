@@ -1,5 +1,9 @@
 import { Node, mergeAttributes } from '@tiptap/core';
-import { NodeViewWrapper, ReactNodeViewRenderer } from '@tiptap/react';
+import {
+  type NodeViewProps,
+  NodeViewWrapper,
+  ReactNodeViewRenderer,
+} from '@tiptap/react';
 
 export const ExpandClient = Node.create({
   name: 'expand',
@@ -25,33 +29,17 @@ export const ExpandClient = Node.create({
     ];
   },
   addNodeView() {
-    return ReactNodeViewRenderer(
-      ({
-        node,
-      }: {
-        node: {
-          type: string;
-          attrs: {
-            title: string;
-          };
-          content: {
-            content: {
-              textContent: string;
-            }[];
-          };
-        };
-      }) => (
-        <NodeViewWrapper>
-          <details>
-            <summary>{node.attrs.title}</summary>
-            <div>
-              {node.content.content.map((child) => (
-                <div key={child.textContent}>{child.textContent}</div>
-              ))}
-            </div>
-          </details>
-        </NodeViewWrapper>
-      )
-    );
+    return ReactNodeViewRenderer(({ node }: NodeViewProps) => (
+      <NodeViewWrapper>
+        <details>
+          <summary>{node.attrs.title}</summary>
+          <div>
+            {node.content.content.map((child) => (
+              <div key={child.textContent}>{child.textContent}</div>
+            ))}
+          </div>
+        </details>
+      </NodeViewWrapper>
+    ));
   },
 });

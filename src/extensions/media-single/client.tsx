@@ -30,7 +30,7 @@ export const MediaSingleClient = Node.create({
     return ReactNodeViewRenderer(() => {
       return (
         <NodeViewWrapper>
-          <div className="pointer-events-none border flex aspect-video w-full select-none items-center justify-center rounded-lg bg-card">
+          <div className="pointer-events-none flex aspect-video w-full select-none items-center justify-center rounded-lg border bg-card">
             <p>Sorry, we can't render images from Jira just yet.</p>
           </div>
         </NodeViewWrapper>
