@@ -1,8 +1,10 @@
 {
   "name": "tiptap-extension-jira",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A collection of Tiptap extensions enabling bidirectional sync with Jira.",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": {
@@ -42,7 +44,11 @@
     "type": "git",
     "url": "git+https://github.com/haydenbleasel/tiptap-extension-jira.git"
   },
-  "keywords": ["jira", "tiptap", "extension"],
+  "keywords": [
+    "jira",
+    "tiptap",
+    "extension"
+  ],
   "author": "Hayden Bleasel <hello@haydenbleasel.com>",
   "license": "ISC",
   "bugs": {
