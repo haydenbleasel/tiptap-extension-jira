@@ -1,3 +1,27 @@
+# v1.0.10 (Fri Dec 06 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Build fix ([@haydenbleasel](https://github.com/haydenbleasel))
+- Move tiptap deps to peer ([@haydenbleasel](https://github.com/haydenbleasel))
+- Bump deps ([@haydenbleasel](https://github.com/haydenbleasel))
+
+#### 🔩 Dependency Updates
+
+- Bump tsup from 8.3.0 to 8.3.5 [#18](https://github.com/haydenbleasel/tiptap-extension-jira/pull/18) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump @types/node from 22.7.4 to 22.10.1 [#17](https://github.com/haydenbleasel/tiptap-extension-jira/pull/17) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump ultracite from 4.1.2 to 4.1.7 [#19](https://github.com/haydenbleasel/tiptap-extension-jira/pull/19) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump typescript from 5.6.3 to 5.7.2 [#20](https://github.com/haydenbleasel/tiptap-extension-jira/pull/20) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump @tiptap/core from 2.6.6 to 2.10.3 [#21](https://github.com/haydenbleasel/tiptap-extension-jira/pull/21) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump cross-spawn from 7.0.3 to 7.0.6 in the npm_and_yarn group [#22](https://github.com/haydenbleasel/tiptap-extension-jira/pull/22) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Hayden Bleasel ([@haydenbleasel](https://github.com/haydenbleasel))
+
+---
+
 # v1.0.9 (Mon Dec 02 2024)
 
 #### ⚠️ Pushed to `main`
