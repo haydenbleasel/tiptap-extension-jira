@@ -45,8 +45,8 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
       ultracite:
-        specifier: 4.1.20
-        version: 4.1.20
+        specifier: 4.2.0
+        version: 4.2.0
 
 packages:
 
@@ -847,8 +847,8 @@ packages:
   uc.micro@2.1.0:
     resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
 
-  ultracite@4.1.20:
-    resolution: {integrity: sha512-3vS8st0hUa2ui9RicTepFlnh2SIdZ2dCkLq0QU6HPt0KdU19iSLak3shKm83cG3Dka2sLYNerNlWoqbKHwtphg==}
+  ultracite@4.2.0:
+    resolution: {integrity: sha512-nMytk8r18BHqiZesOZogGuSGHPrsfPbI7qewSfeRD5bKtJsTl2F/c921HjIN5Zvlv5+QZvixfF3DuHRwONv0/w==}
     hasBin: true
 
   undici-types@6.20.0:
@@ -1598,7 +1598,7 @@ snapshots:
 
   uc.micro@2.1.0: {}
 
-  ultracite@4.1.20:
+  ultracite@4.2.0:
     dependencies:
       commander: 12.1.0
 
